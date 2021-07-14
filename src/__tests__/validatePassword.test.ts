@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import validatePassword from './validatePassword';
 
 test('returns false for empty password', () => {

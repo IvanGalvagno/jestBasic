@@ -1,3 +1,4 @@
+import "reflect-metadata";
 export default function validatePassword(password:string) {
 
    let validLength = password.length >= 8;
