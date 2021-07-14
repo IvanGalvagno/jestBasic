@@ -1,5 +1,8 @@
 {
    "name": "jestproject",
+   "jest":{
+      "verbose": true
+   },
    "version": "0.0.1",
    "description": "Awesome project developed with TypeORM.",
    "devDependencies": {
@@ -17,6 +20,7 @@
       "typeorm": "0.2.34"
    },
    "scripts": {
-      "start": "ts-node src/index.ts"
+      "start": "ts-node src/index.ts",
+      "test": "jest"
    }
 }
